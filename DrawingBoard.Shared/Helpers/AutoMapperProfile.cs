@@ -9,6 +9,7 @@ namespace DrawingBoard.Shared.Helpers
     {
         public AutoMapperProfile()
         {
+
             CreateMap<Board, BoardDto>().ReverseMap();
             CreateMap<Drawing, DrawingDto>().ReverseMap();
             CreateMap<User, UserDto>().ReverseMap();
